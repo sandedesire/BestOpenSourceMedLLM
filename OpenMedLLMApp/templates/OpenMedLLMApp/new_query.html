@@ -1,0 +1,13 @@
+{% extends 'OpenMedLLMApp/base.html' %}
+
+{% block content %}
+
+<p> Make a new Query:</p>
+
+<form action="{% url 'OpenMedLLMApp:new_query' %}" method='post'>
+  {% csrf_token %}
+  {{ form.as_div}}
+  <button name ="submit">Make Query</button>
+</form>
+
+{% endblock content %}

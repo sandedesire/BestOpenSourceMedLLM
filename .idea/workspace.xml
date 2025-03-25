@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33580221-8ff0-4eb4-9a06-4a1d105e3654" name="Changes" comment="Initial Commit" />
+    <list default="true" id="33580221-8ff0-4eb4-9a06-4a1d105e3654" name="Changes" comment="Defined Structure of Main View">
+      <change afterPath="$PROJECT_DIR$/OpenMedLLMApp/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OpenMedLLMApp/templates/OpenMedLLMApp/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OpenMedLLMApp/templates/OpenMedLLMApp/entries.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OpenMedLLMApp/templates/OpenMedLLMApp/new_query.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenMedLLMApp/templates/OpenMedLLMApp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/OpenMedLLMApp/templates/OpenMedLLMApp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenMedLLMApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenMedLLMApp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenMedLLMApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenMedLLMApp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +31,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "sandedesire"
+  }
+}]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/sandedesire/BestOpenSourceMedLLM.git",
@@ -76,11 +92,20 @@
       <option name="project" value="LOCAL" />
       <updated>1742831424649</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Defined Structure of Main View">
+      <option name="closed" value="true" />
+      <created>1742831623482</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1742831623482</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Defined Structure of Main View" />
+    <option name="LAST_COMMIT_MESSAGE" value="Defined Structure of Main View" />
   </component>
 </project>

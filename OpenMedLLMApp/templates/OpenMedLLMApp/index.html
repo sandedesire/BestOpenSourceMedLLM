@@ -1,14 +1,37 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Open Medical LLM Testing For Medical Practitioners</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 </head>
 <body>
 <h1>Open Medical LLM Testing For Medical Practitioners</h1>
+{% extends 'OpenMedLLMApp/base.html' %}
+
+{% block content %}
 <p>
-    This is an open Platform where Medical Practitioners can test the best performing Open Source Medical LLMs
+    This is an open Platform where Medical Practitioners can test the best performing Open Source Medical LLMs</p>
+
+<p> Head Over to "All Interactions" --> "Make A New Query" at the bottom of the page to start Interacting with the AI Model</p>
+
+<p>    Current AI Model is  model="skumar9/Llama-medx_v3.2" which is ranked 6th / 100+ models on the Medical LLM  Leader Board
+
 </p>
+
+
+
+{% endblock content %}
+
+
+
+
+
+
 
 </body>
 </html>
