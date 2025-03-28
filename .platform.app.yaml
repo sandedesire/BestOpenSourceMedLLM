@@ -1,4 +1,4 @@
-name: "OpenMedLLMApp"
+name: "openmedllapp"
 type: "python:3.10"
 
 relationships:
