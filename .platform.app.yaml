@@ -19,7 +19,7 @@ web:
       allow: true
 
 # The size of the persistent disk of the application (in MB)
-disk: 512
+disk: 50012
 
 # Set a local read/write mount for logs.
 mounts:
