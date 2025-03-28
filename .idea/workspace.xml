@@ -4,16 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33580221-8ff0-4eb4-9a06-4a1d105e3654" name="Changes" comment="Defined Structure of Main View">
-      <change afterPath="$PROJECT_DIR$/OpenMedLLMApp/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenMedLLMApp/templates/OpenMedLLMApp/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenMedLLMApp/templates/OpenMedLLMApp/entries.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenMedLLMApp/templates/OpenMedLLMApp/new_query.html" afterDir="false" />
+    <list default="true" id="33580221-8ff0-4eb4-9a06-4a1d105e3654" name="Changes" comment="Working On Deployment">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.platform.app.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.platform/routes.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.platform/services.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements_remote.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenMedLLMApp/templates/OpenMedLLMApp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/OpenMedLLMApp/templates/OpenMedLLMApp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenMedLLMApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenMedLLMApp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenMedLLMApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenMedLLMApp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenMedLLM/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenMedLLM/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,35 +31,42 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "sandedesire"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sandedesire&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/sandedesire/BestOpenSourceMedLLM.git",
-    "accountId": "b36d8ceb-b99c-4cec-bd2e-ddf81b7dee6e"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/sandedesire/BestOpenSourceMedLLM.git&quot;,
+    &quot;accountId&quot;: &quot;b36d8ceb-b99c-4cec-bd2e-ddf81b7dee6e&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2ulRCwOKUIN33IoympOAgJuEon6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/OpenMedLLMApp" />
+      <recent name="$PROJECT_DIR$/OpenMedLLM" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -100,12 +107,21 @@
       <option name="project" value="LOCAL" />
       <updated>1742831623482</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Working On Deployment">
+      <option name="closed" value="true" />
+      <created>1742909269998</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1742909269998</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Defined Structure of Main View" />
-    <option name="LAST_COMMIT_MESSAGE" value="Defined Structure of Main View" />
+    <MESSAGE value="Working On Deployment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working On Deployment" />
   </component>
 </project>
