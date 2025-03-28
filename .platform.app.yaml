@@ -9,7 +9,7 @@ web:
   upstream:
     socket_family: unix
   commands:
-    start: "gunicorn -w 4 -b unix:$SOCKET BestOpenSourceMedLLM.wsgi:application"
+    start: "gunicorn -w 4 -b unix:$SOCKET OpenMedLLMApp.wsgi:application"
   locations:
     "/":
       passthru: true
