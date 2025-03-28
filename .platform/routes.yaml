@@ -2,7 +2,7 @@
 
 "https://{default}/":
   type: upstream
-  upstream: "BestOpenSourceMedLLM:http"
+  upstream: "OpenMedLLMApp:http"
 
 "https://www.{default}/":
   type: redirect
